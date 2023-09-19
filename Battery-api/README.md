@@ -2,6 +2,12 @@
 
 This project utilizes the Battery API to provide various functionalities related to monitoring the battery status of a device. With this API, you can access information such as battery level, track the estimated time until the battery is empty, and determine whether the device is currently plugged in or unplugged. Additionally, if the device is unplugged, a charging icon is displayed.
 
+## Screenshot
+
+![Battery api app](img/battery-api.png)
+
+[Go to app](https://devmrvicky.github.io/web-api-repo/Battery-api/)
+
 ## Features
 
 1. **Battery Level**: This project allows you to view the current battery level of your device, giving you a percentage representation of how much battery power is remaining.
