@@ -24,8 +24,8 @@ In this repository, you will find a variety of web APIs that cover different asp
 
 Here is a list of web APIs available in this repository:
 
-1. [ Background task api ](./Background-tasks-api/): "Background Task API (requestIdleCallback) schedules and executes tasks during browser idle periods for improved performance.".
-   <!-- Add more APIs and descriptions as needed -->
+1. [ Background task api ](./Background-tasks-api/): Background Task API (requestIdleCallback) schedules and executes tasks during browser idle periods for improved performance.
+2. [ Battery api ](./Battery-api/): The Battery API allows you to access important battery-related information for a user's device, such as battery level, charging status, and estimated time until the battery is empty. 
 
 ## Getting Started
 
