@@ -42,6 +42,7 @@ To run this demo locally, follow these steps:
 **Screenshot**
 
 ![Uses](/Broadcast-channel-api/img/broadcast-channel-api.png)
+**[Go to page](https://devmrvicky.github.io/web-api-repo/Broadcast-channel-api/sender.html)**
 
 ## Resources
 
