@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receiver iframe</title>
+  <!-- <script src="./script.js" defer></script> -->
+</head>
+
+<body>
+  <h1>Receiver iframe</h1>
+  <p class="receiver"></p>
+  <script>
+    const receiver = document.querySelector(".receiver")
+    const sendMsg2 = new BroadcastChannel('Send-message')
+    sendMsg2.addEventListener('message', (e) => {
+      receiver.textContent = e.data;
+    })
+  </script>
+</body>
+
+</html>

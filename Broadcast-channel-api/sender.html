@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sender page : BroadcastChannel api</title>
+  <script src="./js/script.js" defer></script>
+  <style>
+    a,
+    textarea {
+      padding: 5px;
+      margin: 10px;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Sender page</h1>
+  <textarea name="sender-message" title="message sender box" id="" cols="30" rows="10"></textarea>
+  <div class="reciever-page-link">
+    <a href="./pages/receiver1.html" target="_blank">Go to first receiver page </a>
+    <a href="./pages/receiver2.html" target="_blank">Go to second receiver page </a>
+  </div>
+  <iframe src="./pages/receiverIframe.html" frameborder="1" title="receiver-iframe"></iframe>
+
+</body>
+
+</html>
