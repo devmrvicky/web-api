@@ -27,6 +27,7 @@ Here is a list of web APIs available in this repository:
 1. [ Background task api ](./Background-tasks-api/): Background Task API (requestIdleCallback) schedules and executes tasks during browser idle periods for improved performance.
 2. [ Battery api ](./Battery-api/): The Battery API allows you to access important battery-related information for a user's device, such as battery level, charging status, and estimated time until the battery is empty. 
 3. [ Broadcast channel api ](./Broadcast-channel-api/): The BroadcastChannel API enables real-time communication and data sharing between different browser tabs, windows, or iframes that are open on the same origin. 
+4. [ Canvas api ](./Canvas-api/): The Canvas API is a web technology that enables dynamic rendering of 2D and 3D graphics, animations, and interactive content within web browsers using JavaScript, providing a versatile tool for creating visual elements on web pages.
 
 ## Getting Started
 
